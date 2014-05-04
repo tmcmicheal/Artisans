@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color:#aad9bc;
+}
+
+#LogoImage {
+	width:65px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:20px;
+	
+}
+#NavigationID {
+background:white;	
+}
+	
+#LogoImage:hover {
+	cursor: pointer;
+}
+
+h1, h2 {
+font-family:'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
+font-size:15.5px;
+line-height:15px;
+color: #264473;
+margin-left:20px;
+}
+
+h1 {
+	font-weight:bold;
+	line-height:6px;
+	letter-spacing:5.5px;
+	margin-top:35px;
+}
+
+h2 {
+	font-weight:normal;
+	font-style:italic;
+}
+
+#Nav1, #Nav2, #Nav3, #Nav4, #Nav5, #Nav6 {
+	background-color:#35b8c2;
+	height:65px;
+	padding-left:8px;
+	padding-right:9px;
+	margin-left:0px;
+		
+	font-family:'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
+	font-size:13px;
+	line-height:40px;
+	color: white;
+	
+	
+	text-align: center;
+vertical-align: middle;
+line-height: 65px;       /* the same as your div height */
+	text-transform:uppercase;
+		letter-spacing:2px;
+		
+cursor: pointer;
+
+		transition: all .25s;
+
+
+}
+
+#Nav1:hover, #Nav2:hover, #Nav3:hover, #Nav4:hover, #Nav5:hover, #Nav6:hover  {
+		background-color:#3d62a8;
+
+
+	}
