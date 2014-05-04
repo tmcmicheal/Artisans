@@ -1,14 +1,50 @@
-@charset "UTF-8";
+@charset "utf-8";
 /* CSS Document */
-body {
-	background-color:#aad9bc;
+
+
+.navbar-wrapper {
+	background-color:#35b8c2;
+	
+	font-family: 'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+line-height:13px;
 }
+
+.navbar-nav>li {
+	color:white;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color:white;
+	background-color:#3d62a8;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a {
+	color:white;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color:#3d62a8;
+	color:white;
+}
+
+
+
+
 
 #LogoImage {
 	width:65px;
 	margin-top:20px;
+	
 	margin-bottom:20px;
 	margin-left:20px;
+	display:inline;
+	float: left;
+	margin-right:15px;
 	
 }
 #NavigationID {
@@ -22,51 +58,86 @@ background:white;
 h1, h2 {
 font-family:'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
 font-size:15.5px;
-line-height:15px;
+line-height:10px;
 color: #264473;
 margin-left:20px;
 }
 
 h1 {
 	font-weight:bold;
-	line-height:6px;
+	line-height:0px;
 	letter-spacing:5.5px;
-	margin-top:35px;
+	margin-top:40px;
+
 }
 
 h2 {
 	font-weight:normal;
 	font-style:italic;
-}
-
-#Nav1, #Nav2, #Nav3, #Nav4, #Nav5, #Nav6 {
-	background-color:#35b8c2;
-	height:65px;
-	padding-left:8px;
-	padding-right:9px;
-	margin-left:0px;
-		
-	font-family:'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
-	font-size:13px;
-	line-height:40px;
-	color: white;
-	
-	
-	text-align: center;
-vertical-align: middle;
-line-height: 65px;       /* the same as your div height */
-	text-transform:uppercase;
-		letter-spacing:2px;
-		
-cursor: pointer;
-
-		transition: all .25s;
-
+	line-height:0px;
 
 }
 
-#Nav1:hover, #Nav2:hover, #Nav3:hover, #Nav4:hover, #Nav5:hover, #Nav6:hover  {
-		background-color:#3d62a8;
 
 
-	}
+
+
+
+
+#content
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #aad9bc;
+
+}
+
+#Topwidth {
+	background-color:white;
+}
+
+
+
+
+
+
+#whitetextbox {
+	position:relative;
+	background-color:white;
+	height:100%;
+}
+
+
+
+
+
+
+
+
+#boxfortext {
+	
+	position:absolute;
+	
+}
+
+
+#textinbox1 {
+	
+margin: 0 auto;
+	
+	margin-top:50px;
+	width:70%;
+
+position:relative;
+font-family:'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
+font-size:15.5px;
+line-height:19px;
+color: #264473;
+
+text-align:justify;
+
+}
+
