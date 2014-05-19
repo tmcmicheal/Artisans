@@ -1,81 +1,176 @@
-@charset "utf-8";
+@charset "UTF-8";
 /* CSS Document */
 
+body {
+font-family: 'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;    
+background: #aad9be;
+color: #3d62a8;
+}
 
-.navbar-wrapper {
+#topnavigation {
+  position: fixed;
+  top: 20px;
+}
+
+#header {
+	height: 80px;
+background-color:purple;
+padding-bottom:40px;
+}
+
+
+#logo {
+height: 80px;
+margin-right: 15px;
+float: left;
+background-color:pink;
+padding-top:20px;
+}
+
+
+
+
+
+#navigationbox {
 	background-color:#35b8c2;
+	margin-left:-25px;
+	margin-right:-25px;
+	height:40px;
+}
+
+#newlogo {
+	padding-bottom:25px;
+}
+
+#logoname {
+	font-size: 15.5pt;
+color: #264473;
+font-weight: bold;
+letter-spacing:5.5px;
+line-height: 1em;
+text-transform:uppercase;
+margin-top:10px;
+
+}
+
+#logosaying {
 	
-	font-family: 'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
+		margin-top: -8px;
+	float: left;
+	font-size: 14.5pt;
+color: #264473;
+font-weight: normal;
+font-style:italic;
+line-height: 1em;
+}
+
+
+
+#navlinks a {
+    color: white;
+    float: left;
+	padding-right: 13px;
+    -webkit-transition: opacity .25s;
+	padding-left:13px;
+	padding-top:10px;
+	padding-bottom:10px;
 	font-size: 13px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
-line-height:13px;
-}
-
-.navbar-nav>li {
-	color:white;
+	letter-spacing: 1.5px;
 }
 
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-	color:white;
+
+
+#navlinks a:hover {
+	text-decoration: none;
+    cursor: pointer;
 	background-color:#3d62a8;
-}
-
-.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a {
-	color:white;
-}
-
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	background-color:#3d62a8;
-	color:white;
-}
-
-
-
-
-
-#LogoImage {
-	width:65px;
-	margin-top:20px;
 	
-	margin-bottom:20px;
-	margin-left:20px;
-	display:inline;
-	float: left;
-	margin-right:15px;
 	
-}
-#NavigationID {
-background:white;	
-}
 	
-#LogoImage:hover {
-	cursor: pointer;
+    -moz-transition: all .3s ease-in;
+    /* WebKit */
+    -webkit-transition: all .3s ease-in;
+    /* Opera */
+    -o-transition: all .3s ease-in;
+    /* Standard */
+    transition: all .3s ease-in;
 }
 
-h1, h2 {
-font-family:'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
-font-size:15.5px;
-line-height:10px;
-color: #264473;
-margin-left:20px;
+
+
+#header .span12 {
+	width: 1500px;
+	margin-left: -24px;
 }
 
-h1 {
-	font-weight:bold;
-	line-height:0px;
-	letter-spacing:5.5px;
-	margin-top:40px;
 
+
+
+
+#stafflist {
+text-align:center;	
 }
 
+
+.row h1 {
+margin-bottom: 25px;	
+}
+
+
+#whitebox {
+background: white;
+border-top: solid 25px white;
+border-left: solid 25px white;
+border-right: solid 25px white;
+border-bottom: solid 50px white;
+
+margin-bottom: 25px;
+}
+
+h3 {
+font-weight: 300;
+line-height: 1.2em;	
+}
 h2 {
-	font-weight:normal;
-	font-style:italic;
-	line-height:0px;
+font-weight: 400;
+line-height: 1.2em;	
+}
+h1 {
+font-weight: 600;
+line-height: 1.2em;	
+font-style:italic;
+}
 
+p {
+line-height: 1.5em;
+color: #6d6e71;
+}
+
+
+
+
+
+#spacer {
+	margin-top: 50px;
+	margin-bottom: 50px;
+height: 1px;
+background: #bcbec0;
+}
+
+
+
+
+
+
+#whitebox2 {
+background: white;
+border-top: solid 25px white;
+border-left: solid 25px white;
+border-right: solid 25px white;
+
+margin-bottom: 25px;
 }
 
 
@@ -84,30 +179,10 @@ h2 {
 
 
 
-#content
-{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #aad9bc;
-
-}
-
-#Topwidth {
-	background-color:white;
-}
 
 
 
-
-
-
-#whitetextbox {
-	position:relative;
-	background-color:white;
-	height:100%;
+p {
 }
 
 
@@ -117,27 +192,6 @@ h2 {
 
 
 
-#boxfortext {
-	
-	position:absolute;
-	
-}
 
 
-#textinbox1 {
-	
-margin: 0 auto;
-	
-	margin-top:50px;
-	width:70%;
-
-position:relative;
-font-family:'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
-font-size:15.5px;
-line-height:19px;
-color: #264473;
-
-text-align:justify;
-
-}
 
